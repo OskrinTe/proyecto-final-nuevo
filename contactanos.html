@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactanos</title>
+    <link rel="icon" href="./images/logo/OMTC.png">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/019b4a7e6b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+        <!--logo y menu de navegacion por el sitio web-->
+    <div class="ancho">
+        <div class="logo">
+            <p><a href="index.html">OMTC</a></p>
+        </div>
+        <nav>
+            <ul>
+                 <li><a href="./index.html">inicio</a></li>
+                <li><a href="./contactanos.html">contactanos</a></li>
+                <li><a href="./informacion.html">informacion</a></li>
+                <li><a href="./quienes somos.html">quienes somos</a></li>
+                <li><a href="./componentes.html">componentes</a></li>
+            </ul>
+           </nav>
+    </div>
+    <!--cierre del header-->
+</header>
+    <main>
+        <!--contenido principal-->
+        <img src="./images/informacion/banner de informacion ¡prueba!.PNG">
+        <h1>Contactanos mediante este formulario</h1>
+        <!--cierre del contenido principal-->
+    </main>
+    <!--formulario de contacto-->
+    <form action="contactanos.html" method="get" enctype="application/x-www-form-urlencoded">
+        <fieldset>
+            <!--datos personales con comentario-->
+            <legend>Datos personales</legend>
+                <label for="Primer nombre">Primer nombre: </label>
+                <input type="text" name="Primer nombre" placeholder="Ingresa tu primer nombre">
+                <label for="Primer apellido">Primer apellido: </label>
+                <input type="text" name="Primer apellido" placeholder="Ingresa tu primer apellido">
+                <label for="numero de identificacion">Numero de identificacion</label>
+                <input type="text" name="numero de identificacion" placeholder="Ingresa tu numero de identificacion">
+                <br><br>
+            <!--datos de sexo-->
+                <div>
+                    <label for="Sexo">Sexo</label><br>
+                    <input type="radio" name="sexo" id="mujer" value="mujer">
+                    <label for="mujer">Mujer</label><br>
+                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                    <label for="hombre">Hombre</label><br> 
+                    <input type="radio" name="sexo" id="prefiero no decirlo" value="prefiero no decirlo">
+                    <label for="prefiero no decirlo">Prefiero no decirlo</label><br>
+                </div>
+                <br><br>
+            <!--comentarios de el cliente-->
+                <div>
+                    <label for="Comentarios">Comentarios</label><br>
+                    <textarea name="Comentarios" id="comentario" rows="5" cols="50"></textarea>
+                </div>
+        </fieldset>
+        <fieldset>
+            <!--cuadro de expansion de informacion-->
+            <legend>¿Motivo de contactarnos?</legend>
+                <label for="Propocionanos mayor informacion">Proporcionanos mayor informacion</label><br>
+                <input type="checkbox" name="Propocionanos mayor informacion" id="problemas con el sitio web" value="problemas con el sitio web">
+                <label for="problemas con envios">Problemas con el sitio web</label><br>
+                <input type="checkbox" name="Proporcionanos mayor informacion" id="dudas generales" value="dudas generales">
+                <label for="dudas generales">Dudas generales</label><br>
+                <input type="checkbox" name="Propocionanos mayor informacion" id="problemas con envios" value="problemas con envios">
+                <label for="problemas con envios">Problemas con envios</label><br>
+                <input type="checkbox" name="proporcionanos mayo informacion" id="problemas con el proceso de compra" value="problemas con el proceso de compra">
+                <label for="problemas con el proceso de compra">problemas con el proceso de compra</label><br>
+                <input type="checkbox" name="proporcionanos mayor informacion" id="otros" value="otros">
+                <label for="otros">otros</label><br><br>
+
+                <div>
+                    <label for="¿que otro problema tienes?">¿que otro problema tienes?</label><br>
+                    <textarea name="¿que otro problema tienes?" id="¿que otro problema tienes?" rows="5" cols="50"></textarea>
+                </div><br><br>
+
+                <div>
+                    <label for="prioridad">Prioridad</label>
+                    <select name="prioridad">
+                        <option value="0" selected>Seleccione</option>
+                        <option value="muy importante">Muy importante</option>
+                        <option value="importante">Importante</option>
+                        <option value="no tan importante">No tan importante</option>
+                    </select>
+                </div>
+        </fieldset><br><br>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar formulario">
+            <input type="button" value="Sin acciones">
+        </div><br>
+     </form>
+<footer>
+<!--footer-->
+<div class="contenedor__footer">
+    <div class="contenido__footer">
+        <img src="./images/logo/OMTC.png" width="40" height="40">
+        <p>__OMTC__ equipos y componentes de computo.<br>
+            Estamos ubicados en Cucuta Norte de santander donde los envios a la misma localidad seran gratuitos.<br>
+            Si desesas comunicarte puedes hacerlo por medio del formulario de la seccion contactanos o tambien puedes hacerlo por medio de las redes sociales, si tienes una duda muy especifica o problmeas de urgencia contactanos telefonicamente!!.
+        </p>
+    </div>
+    <div class="contenido__footer">
+        <i class="fa-brands fa-twitter"></i><br><br>
+        <i class="fa-brands fa-instagram"></i><br><br>
+        <i class="fa-brands fa-facebook"></i><br><br>
+    </div>
+</div>
+<!--cierre del footer-->
+</footer>
+</body>
+</html>
