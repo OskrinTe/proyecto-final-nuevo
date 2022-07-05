@@ -1,58 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OMTC</title>
-    <script src="https://kit.fontawesome.com/019b4a7e6b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./Bootstrap/CSS/bootstrap.min.css">
-    <script src="./Bootstrap/JS/jquery.slim.min.js"></script>
-    <script src="./Bootstrap/JS/bootstrap.bundle.min.js"></script>
+    <title>informacion</title>
     <link rel="icon" href="./images/logo/OMTC.png">
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="https://kit.fontawesome.com/019b4a7e6b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-           <div class="row justify-content-center align-items-center">
-              <div class="col-3 text-center">
-                <h1>OMTC</h1>
-              </div>
-              <div class="col-6 text-center">
-                <nav>
-                   <ul>
-                        <li><a href="./index.html">inicio</a></li>
-                        <li><a href="./informacion.html">informacion</a></li>
-                </nav>
-              </div>
-           </div>
+<header>
+        <!--logo y menu de navegacion por el sitio web-->
+    <div class="ancho">
+        <div class="logo">
+            <p><a href="index.html">OMTC</a></p>
         </div>
-    </header>
-    <section>
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63229.88981638441!2d-72.53944023502606!3d7.908843607685502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66459c645dd28b%3A0x26736c1ff4db5caa!2sC%C3%BAcuta%2C%20Norte%20de%20Santander!5e0!3m2!1ses-419!2sco!4v1654828898500!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-    </section>
-    <footer class="container">
-        <!--footer-->
+        <nav>
+            <ul>
+                 <li><a href="./index.html">inicio</a></li>
+                <li><a href="./contactanos.html">contactanos</a></li>
+                <li><a href="./informacion.html">informacion</a></li>
+                <li><a href="./quienes somos.html">quienes somos</a></li>
+                <li><a href="./componentes.html">componentes</a></li>
+            </ul>
+           </nav>
+    </div>
+    <!--cierre del header-->
+</header>
+<div>
+    <main>
+        <!--titulo y banner(contenido principal)-->
+        <img src="./images/informacion/banner de informacion ¡prueba!.PNG">
+        <h1>informacion</h1>
+        <!--cierre del contenido principal-->
+    </main>
+    <div class="contenedor__fondo">
         <div>
-            <div>
-                <img class="row" src="./images/logo/OMTC.png" width="40" height="40" class="efectos__img">
-                <p>__OMTC__ equipos y componentes de computo.<br>
-                    Estamos ubicados en Cucuta Norte de santander donde los envios a la misma localidad seran gratuitos.<br>
-                    Si desesas comunicarte puedes hacerlo por medio del formulario de la seccion contactanos o tambien puedes hacerlo por medio de las redes sociales, si tienes una duda muy especifica o problmeas de urgencia contactanos telefonicamente!!.
-                </p>
-            </div>
-            <div>
-                <i class="fa-brands fa-twitter"></i><br><br>
-                <i class="fa-brands fa-instagram"></i><br><br>
-                <i class="fa-brands fa-facebook"></i><br><br>
-            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63229.88981638441!2d-72.53944023502606!3d7.908843607685502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66459c645dd28b%3A0x26736c1ff4db5caa!2sC%C3%BAcuta%2C%20Norte%20de%20Santander!5e0!3m2!1ses-419!2sco!4v1654828898500!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <!--cierre del footer-->
-        </footer>
+        <div class="contenido__fondo">
+            <p>Estamos ubicados en la ciudad de cucuta con diponibilidad de envios de 7:00 am a 7:pm siempre pensando en ti y tus necesidades<br><br>
+               Puedes contactarnos mediante cualquier red social o en caso de urgencia y/o pedidos personalizados con la prioridad maxima por el medio telefonico<br><br>
+               Pronto se intentara adquirir una menbresia con la cual se espera manejar clientes de forma mas priorizada y con mas beneficios.</p>
+        </div>
+    </div>
+
+</div>
+<footer>
+<!--footer-->
+<div class="contenedor__footer">
+    <div class="contenido__footer">
+        <img src="./images/logo/OMTC.png" width="40" height="40">
+        <p>__OMTC__ equipos y componentes de computo.<br>
+            Estamos ubicados en Cucuta Norte de santander donde los envios a la misma localidad seran gratuitos.<br>
+            Si desesas comunicarte puedes hacerlo por medio del formulario de la seccion contactanos o tambien puedes hacerlo por medio de las redes sociales, si tienes una duda muy especifica o problmeas de urgencia contactanos telefonicamente!!.
+        </p>
+    </div>
+    <div class="contenido__footer">
+        <i class="fa-brands fa-twitter"></i><br><br>
+        <i class="fa-brands fa-instagram"></i><br><br>
+        <i class="fa-brands fa-facebook"></i><br><br>
+    </div>
+</div>
+<!--cierre del footer-->
+</footer>
 </body>
 </html>
