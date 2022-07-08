@@ -1,0 +1,27 @@
+footer {
+	border: 5px solid #564180;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+.contenedor__footer {
+	display: flex;
+	justify-content: space-around;
+	height: auto;
+	width: auto;
+	background-color: #5EFFBA;
+	.contenido__footer {
+		img {
+			margin: 0 45% 0 45%;
+		}
+		i {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+}
+.contenido__footer {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: auto;
+	width: 250px;
+}

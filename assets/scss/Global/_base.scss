@@ -1,0 +1,83 @@
+@import "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Nunito+Sans:ital,wght@1,200&display=swap";
+* {
+	margin: 0;
+	padding: 0;
+}
+.logo {
+	width: 30%;
+	height: 70px;
+	float: left;
+	padding-top: 5px;
+	box-sizing: border-box;
+	font-weight: bold;
+	p {
+		a {
+			color: #564180;
+			font-size: 40px;
+			text-decoration: none;
+			font-family: 'Dancing Script', cursive;
+		}
+	}
+}
+h1 {
+	font-style: italic;
+	color: #5C78F2;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: -7px 2px 7px rgba(92,242,208,0.99);
+	text-align: center;
+	font-size: 50px;
+	margin-top: 12px;
+}
+.contenedor {
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.contenido {
+	width: 250px;
+	height: 250px;
+	margin: 30px 30px 30px 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	&:hover {
+		.imagen {
+			-webkit-transform: scale(1.1);
+			transform: scale(1.1);
+		}
+	}
+}
+.contenedor__fondo {
+	margin: 15px 15px 15px 15px;
+	display: flex;
+}
+.contenido__fondo {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: larger;
+	margin: 10px;
+	text-align: justify;
+}
+.subtitulos {
+	margin-left: 30px;
+	font-family: 'Dancing Script', cursive;
+}
+.imagen {
+	&:hover {
+		filter: opacity(.5);
+	}
+}
+.banner {
+	height: auto;
+	width: auto;
+}
+body {
+	background-color: #fff;
+}
+section {
+	background-color: #fff;
+	width: 100%;
+}
