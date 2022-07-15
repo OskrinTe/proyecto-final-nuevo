@@ -1,5 +1,8 @@
+
+$border-lila:5px solid #564180;
+$background-color:#5EFFBA;
 footer {
-	border: 5px solid #564180;
+	border: $border-lila;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
 }
@@ -8,7 +11,7 @@ footer {
 	justify-content: space-around;
 	height: auto;
 	width: auto;
-	background-color: #5EFFBA;
+	background-color: $background-color;
 	.contenido__footer {
 		img {
 			margin: 0 45% 0 45%;
