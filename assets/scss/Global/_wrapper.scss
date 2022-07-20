@@ -7,6 +7,7 @@ $border-lila:5px solid #564180;
 	grid-template-areas: "nuevos__Perifericos Nuevos__productos" "productos__perifericos Productos__componentes";
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: auto auto 70px;
+	margin: 10px 0 10px 0;
 }
 #pie__seccion {
 	text-align: center;
