@@ -1,28 +1,17 @@
 @import "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Nunito+Sans:ital,wght@1,200&display=swap";
-* {
-	margin: 0;
-	padding: 0;
+*{margin:0;
+padding:0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
 }
-$border-lila:5px solid #564180; 
-.logo {
-	width: 30%;
-	height: 70px;
-	float: left;
-	padding-top: 5px;
-	box-sizing: border-box;
-	font-weight: bold;
-	p {
-		text-align: center;
-		a {
-			color: #564180;
-			font-size: 200%;
-			text-decoration: none;
-			font-family: 'Dancing Script', cursive;
-		}
+.banner {
+	width: 100%;
+	height: auto;
+	img {
+		height: 100%;
+		width: 100%;
 	}
-}
-h3{
-	margin-left: 20px;
 }
 h1 {
 	font-style: italic;
@@ -30,18 +19,21 @@ h1 {
 	font-family: 'Dancing Script', cursive;
 	text-shadow: -7px 2px 7px rgba(92,242,208,0.99);
 	text-align: center;
-	font-size: 300%;
-	margin-top: 12px;
+	font-size: 60px;
+}
+.subtitulos {
+	margin-left: 2%;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
 }
 .contenedor {
-	border:$border-lila;
 	width: auto;
 	height: auto;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	margin-bottom: auto;
-	margin-top: 20px;
+	border: 5px solid #564180;
 }
 .contenido {
 	width: 250px;
@@ -49,12 +41,22 @@ h1 {
 	margin: 30px 30px 45px 30px;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
-	&:hover {
-		.imagen {
-			-webkit-transform: scale(1.05);
-			transform: scale(1.05);
-		}
-	}
+}
+#wrapper {
+	border: 5px solid #564180;
+	height: auto;
+	width: auto;
+	display: grid;
+	grid-template-areas: "nuevos__Perifericos Nuevos__productos" "productos__perifericos Productos__componentes";
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto 70px;
+	margin: 10px 0 10px 0;
+}
+#pie__seccion {
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
 }
 .contenedor__fondo {
 	margin: 15px 15px 15px 15px;
@@ -68,24 +70,4 @@ h1 {
 	font-weight: bold;
 	font-size: 90%;
 	margin-bottom: 1%;
-}
-.subtitulos {
-	margin-left: 30px;
-	font-family: 'Dancing Script', cursive;
-}
-.imagen {
-	&:hover {
-		filter: opacity(.5);
-	}
-}
-.banner {
-	height: auto;
-	width: auto;
-}
-body {
-	background-color: #fff;
-}
-section {
-	background-color: #fff;
-	width: 100%;
 }

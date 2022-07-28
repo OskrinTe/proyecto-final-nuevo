@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sitio web de venta de computos para todas las personas donde conseguira todo tipo de componentes">
-    <meta name="keywords" content="componentes, computo, venta, compra, ram, procesador, graficas, tarjetas">
     <title>Mas sobre nosotros</title>
-    <link rel="icon" href="./images/logo/OMTC.png">
-    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link rel="icon" href="./assets/images/logo/OMTC.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-<header>
+    <header>
         <!--logo y menu de navegacion por el sitio web-->
-    <div class="ancho">
-        <div class="logo">
-            <p><a href="index.html">OMTC</a></p>
+        <div class="ancho">
+            <div class="logo">
+                <p><a href="index.html">OMTC</a></p>
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+                <ul>
+                    <li><a class="active" href="index.html">Inicio</a></li>
+                    <li><a href="./contactanos.html">contactanos</a></li>
+                    <li><a href="./informacion.html">informacion</a></li>
+                    <li><a href="./quienes somos.html">quienes somos</a></li>
+                    <li><a href="./componentes.html">componentes</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                 <li><a href="./index.html">inicio</a></li>
-                <li><a href="./contactanos.html">contactanos</a></li>
-                <li><a href="./informacion.html">informacion</a></li>
-                <li><a href="./quienes somos.html">quienes somos</a></li>
-                <li><a href="./componentes.html">componentes</a></li>
-            </ul>
-           </nav>
-    </div>
     <!--cierre del header-->
-</header>
+    </header>
         <!--titulo y banner(contenido principal)-->
 <div>
     <main>
@@ -40,7 +43,7 @@
 <!--contenido de fondo+texto-->
 <div class="contenedor__fondo">
     <div>
-        <img src="./assets/images/quienes somos/fondo prueba.PNG" width="400" height="400">
+        <img class="img-resize"s src="./assets/images/quienes somos/fondo prueba.PNG" width="400" height="400">
     </div>
     <div class="contenido__fondo">
         <p>__OMTC__ Es una empresa formada apartir de un proyecto ideologizado por el mundo de la tecnologia, este proyecto tam bien es y sera presantado en la plataforma coderhouse como proyecto final de curso "desarrollo web"<br><br>
@@ -60,13 +63,8 @@
             Si desesas comunicarte puedes hacerlo por medio del formulario de la seccion contactanos o tambien puedes hacerlo por medio de las redes sociales, si tienes una duda muy especifica o problmeas de urgencia contactanos telefonicamente!!.
         </p>
     </div>
-    <div class="contenido__footer">
-        <i class="fa-brands fa-twitter"></i><br><br>
-        <i class="fa-brands fa-instagram"></i><br><br>
-        <i class="fa-brands fa-facebook"></i><br><br>
-    </div>
 </div>
 <!--cierre del footer-->
-</footer>
+</footer>   
 </body>
 </html>

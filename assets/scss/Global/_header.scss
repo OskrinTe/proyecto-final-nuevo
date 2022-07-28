@@ -1,39 +1,59 @@
-$background-color:#5EFFBA;
 header {
-	background-color:$background-color;
-	width: auto;
-	height: 70px;
-	position: sticky;
 	border: 5px solid #564180;
 }
-.ancho {
-	width: 80%;
-	height: 70px;
-	margin: auto;
-}
 nav {
-	width: 70%;
-	height: 70px;
-	float: left;
-	text-align: right;
-	padding-top: 26px;
-	box-sizing: border-box;
+	background-color: #5EFFBA;
+	width: 100%;
+	height: 80px;
 	ul {
+		float: right;
 		li {
 			display: inline-block;
+			line-height: 80px;
+			margin: 0 5px;
 			a {
 				color: #564180;
-				font-size: 13px;
-				text-decoration: none;
+				font-size: 15px;
 				text-transform: uppercase;
-				padding-left: 19px;
+				padding: 7px 13px;
 				font-weight: bold;
-				letter-spacing: 1px;
 				font-family: 'Dancing Script', cursive;
-				&:hover {
-					color: #5C78F2;
-				}
+				border-radius: 3px;
 			}
 		}
 	}
+}
+.logo {
+	position: absolute;
+	padding: 20px 50px;
+	p {
+		height: 40px;
+		text-align: center;
+		a {
+			color: #564180;
+			font-size: 30px;
+			text-decoration: none;
+			font-family: 'Dancing Script', cursive;
+		}
+	}
+}
+li {
+	a {
+		&:hover {
+			color: #5C78F2;
+			transition: .5s;
+		}
+	}
+}
+.checkbtn {
+	font-size: 30px;
+	color: #564180;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
 }
